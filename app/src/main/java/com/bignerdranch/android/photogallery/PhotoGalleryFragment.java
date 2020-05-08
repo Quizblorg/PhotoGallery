@@ -78,7 +78,6 @@ public class PhotoGalleryFragment extends Fragment {
 
 		@Override
 		public void onBindViewHolder(@NonNull PhotoHolder photoHolder, int i) {
-			Log.i(TAG, "onBindViewHolder() called");
 			GalleryItem galleryItem = mGalleryItems.get(i);
 			photoHolder.bindGalleryItem(galleryItem);
 		}
